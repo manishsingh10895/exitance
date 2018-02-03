@@ -26,7 +26,6 @@ before_script:
 
 script:
   - cd $TEST_DIR && npm install && npm test
-  - cd client && npm run build
 
 after_success:
   - 
